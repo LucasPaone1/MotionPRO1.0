@@ -1,0 +1,730 @@
+@media (max-width: 1025px){
+
+   
+
+    .encerramento h2{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .header .imgheader2{
+        display: flex;
+        background-color: black;
+        justify-content: center;
+
+    }
+    
+    .imgheadercll{
+        display: flex;
+        width: 100%;
+        -webkit-user-drag: none;
+    
+    }
+
+    .header .imgheader{
+        display: none;
+    }
+
+    .faq-section {
+        
+            width: 70%;
+            margin: auto;
+            padding: 40px;    
+       
+}
+
+
+
+
+.header{
+    display: flex;
+    flex-flow: column;
+    background-color: black;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.campoheader{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin-inline: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.campoinicio{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 374px;
+}
+
+.campoinicio h1{
+    color: white;
+    font-size: 32px;
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+    line-height: 1.0;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-inline: 20px;
+    text-align: center;
+}
+
+.campoinicio h4{
+    text-shadow: 0px 0px 20px rgb(92, 7, 51);
+    color: #fc5392;
+    margin-top: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 14px;
+}
+
+.campoinicio h3{
+    text-align: center;
+    margin-top: 26px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-inline: 20px;
+}
+
+
+
+.pay{
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(45deg, #fc5392, #f86f65);
+    box-shadow: 0 0 14px rgba(254,84,146,0.8);
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.pay a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-block: 8px;
+    padding-inline: 49px;
+}
+
+
+.pay p{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 26px;
+}
+
+
+
+
+
+.acesso, .acesso1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.acesso, .acesso1 h3{
+    font-size: 26px;
+    font-family: "Chakra Petch", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 2px;
+}
+
+.acessos{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    overflow-x: visible;
+    position: relative;
+}
+
+.elementsacesso{
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-inline: 0px;
+    margin-top: 40px;
+    position: relative;
+    
+}
+
+.gifs-acesso{
+    display: flex;
+    flex-flow: wrap;
+    gap: 12px;
+    margin-top: 14px;
+    width: 332px;
+}
+
+.gifs-acesso video{
+    width: 160px;
+    border-radius: 6px;
+}
+
+.infosacesso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 14px;
+    width: 0px;
+    gap: 12px;
+    margin-block-end: 20px;
+    
+
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4{
+    border-radius: 8px;
+    width: 326px;
+    height: 25%;
+    padding-block: 20px;
+    background-color: rgb(35, 35, 35);
+    border: solid 3px #fc5392;
+    box-shadow: 0px 0px 10px rgba(248,111,101,0.4);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: #fc5392;
+    text-align: center;
+    
+}
+
+.infos22{
+    position: relative;
+    color: white;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-inline-start: 3px;
+    
+}
+
+.infos2{
+    display: none;
+}
+
+.infos33{
+    position: relative;
+    color: white;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    
+}
+.infos3{
+    display: none;
+}
+
+.infos4{
+    position: relative;
+    color: white;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-inline-start: 3px;
+    
+}
+
+.infosss{
+    display: flex;
+    flex-flow: column;
+}
+
+.infos22, .infos33, .infos4 p{
+    font-weight: bold;
+}
+
+.bloco1 i{
+    font-size: 64px;
+}
+
+.bloco1 h1{
+    line-height: 1.0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.bloco1 h5{
+    color: white;
+    font-weight: 500;
+    padding-inline: 10px;
+}
+
+
+.bloco2 i{
+    font-size: 64px;
+}
+
+.bloco2 h1{
+    line-height: 1.0;
+    margin-top: 10px;
+    
+    font-style: normal;
+    font-weight: 900;
+}
+
+.bloco2 h5{
+    color: white;
+    font-weight: 500;
+    padding-inline: 10px;
+}
+
+
+.bloco3 i{
+    font-size: 64px;
+}
+
+.bloco3 h1{
+    line-height: 1.0;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.bloco3 h5{
+    color: white;
+    font-weight: 500;
+    padding-inline: 10px;
+}
+
+
+.bloco4 i{
+    font-size: 64px;
+}
+
+.bloco4 h1{
+    line-height: 1.0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.bloco4 h5{
+    color: white;
+    font-weight: 500;
+    padding-inline: 10px;
+}
+
+.infos22{
+    width: 126px;
+}
+
+.infos33{
+    width: 223px;
+}
+
+.infos4{
+ width: 223px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagebonus{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    overflow-x: visible;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 20px;
+    
+}
+
+.pagebonus img{
+    display: none;
+    opacity: 0.2;
+    -webkit-user-drag: none;
+}
+
+.pagebonus .infobonus{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    height: auto;
+    align-items: center;
+    width: 0px;
+    
+    
+}
+
+
+
+.textbonus{
+        margin-top: 40px;
+        margin-inline-start: 0px; 
+        width: 398px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+}
+
+.textbonus .fa-gift{
+    color: #fc5392;
+    font-size: 48px;
+}
+
+.textbonus h1{
+    
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.0;
+    color: white;
+    margin-block: 14px;
+    margin-inline: 20px;
+}
+
+.iconsandtextbonus section{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.textbonus .iconsandtextbonus{
+    color: white;
+    display: flex;
+    flex-flow: column;
+    
+    gap: 4px;
+}
+
+.iconsandtextbonus h4{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.fa-circle-check{
+    margin-inline-end: 10px;
+    font-size: 12px;
+}
+
+.teamsvideo{
+    color: white;
+}
+
+
+.motionsbonus{
+    position: relative;
+    width: 348px;
+}
+
+.motionsbonus video{
+   
+    position: relative;
+    width: 170px;
+    border-radius: 6px;
+}
+
+.textbonus h3{
+    margin-top: 14px;
+}
+
+.textbonus h2{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 38px;
+}
+
+.textbonus h2 b{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #fc5392;
+}
+
+.textbonus h3, h2{
+    color: white;
+}
+
+
+
+.category{
+    width: 100%;
+    height: auto;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+    gap: 30px;
+    
+    
+}
+
+
+
+
+.category img{
+    width: 80px;
+    
+}
+
+.category  div{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    padding-inline: 6%;
+    align-items: center;
+    
+}
+
+.category h1{
+    margin-block: 14px;
+    font-family: 'Nexa';
+    font-weight: 900;
+    font-style: normal;
+    color: #fc5392;
+}
+
+.category h4{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+
+}
+
+
+
+
+.rodape{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+
+    
+}
+
+
+
+.diretos, h4{
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(97, 97, 97);
+    line-height: 1.0;
+    font-size: 10px;
+}
+
+.socials .textredes{
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(97, 97, 97);
+    font-size: 10px;
+    
+    margin-bottom: 0px;
+
+}
+
+.socials{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+   
+}
+
+.redes{
+    width: 36px;
+    height: 36px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+}
+
+@media (max-width: 404px){
+
+    .titlebonus h2 {
+        font-size: 20px;
+        margin-inline: 30px;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .motionsbonus {
+        position: relative;
+        width: 305px;
+    }
+
+    .motionsbonus video {
+        position: relative;
+        width: 150px;
+        border-radius: 6px;
+    }
+
+
+    .gifs-acesso video {
+        width: 140px;
+        border-radius: 6px;
+    }
+
+    .gifs-acesso {
+        display: flex;
+        flex-flow: wrap;
+        gap: 12px;
+        margin-top: 14px;
+        width: 292px;
+    }
+
+    .campoheader {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        margin-inline: 0px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .faq summary {
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        transition: 0.3s ease-in-out;
+        background-color: rgb(24, 24, 24);
+        font-size: 12px;
+    }
+    
+    .bloco1, .bloco2, .bloco3, .bloco4 {
+        border-radius: 8px;
+        width: 290px;
+        height: 25%;
+        padding-block: 20px;
+        background-color: rgb(35, 35, 35);
+        border: solid 3px #fc5392;
+        box-shadow: 0px 0px 10px rgba(248, 111, 101, 0.4);
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        color: #fc5392;
+        text-align: center;
+    }
+
+    .textbonus h1 {
+        text-align: center;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 1.0;
+        color: white;
+        margin-block: 14px;
+        margin-inline: 20px;
+    }
+
+
+    .textbonus {
+        margin-top: 40px;
+        margin-inline-start: 0px;
+        width: 321px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .acesso, .acesso1 h3 {
+        font-size: 22px;
+        font-family: "Chakra Petch", system-ui;
+        font-weight: 600;
+        font-style: normal;
+        padding-top: 2px;
+    }
+
+
+    .campoinicio h1 {
+        color: white;
+        font-size: 30px;
+        text-shadow: 0px 0px 16px rgba(255, 255, 255, 0.7);
+        margin-top: 24px;
+        line-height: 1.0;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-inline: 20px;
+        text-align: center;
+    }
+}
